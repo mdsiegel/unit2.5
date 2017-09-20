@@ -5,3 +5,4 @@
 from ggame import *
 
 blackOutline = LineStyle(1,black)
+baseRectangle = RectangleAsset(200,100,blackOutline,red)
