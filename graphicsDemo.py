@@ -15,9 +15,11 @@ redRectangle = RectangleAsset(200,100,blackOutline,red) #width height outline fi
 blueCircle = CircleAsset(50, blackOutline, blue)
 greenEllipse = EllipseAsset(100,50,blackOutline,green)
 blackLine = LineAsset(50, 160, blackOutline)
+redTriangle = PolygonAsset([(0,0), (120,180), (60,300)], blackOutline, red)
 
 Sprite(redRectangle)
 Sprite(blueCircle, (50,50))
 Sprite(greenEllipse, (200,400))
 Sprite(blackLine)
+Sprite(redTriangle)
 App().run()
