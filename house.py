@@ -4,4 +4,4 @@
 
 from ggame import *
 
-
+blackOutline = LineStyle(1,black)
