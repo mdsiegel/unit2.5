@@ -8,7 +8,9 @@ name = input('Enter you name: ')
 colorCode = input('Enter a hex RGB code: ')
 colorinput = Color(colorCode,1)
 
-text = TextAsset(name,fill=colorinput,style='40pt Times')
+
+
+text = TextAsset(name,fill = colorinput,style='40pt Times')
 
 Sprite(text)
 App().run()
