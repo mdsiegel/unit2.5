@@ -14,7 +14,7 @@ black = Color(0x000000,1)
 
 blackOutline = LineStyle(1,black) #pixels,color
 
-rectangle = RectangleAsset(200,100,blackOutline,colorinput) #width height outline fill
+rectangle = RectangleAsset(1000,600,blackOutline,colorinput) #width height outline fill
 
 
 
