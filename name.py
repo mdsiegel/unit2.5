@@ -22,5 +22,5 @@ rectangle = RectangleAsset(1000,600,blackOutline,colorinput) #width height outli
 text = TextAsset(name,fill = black,style='40pt Times')
 
 Sprite(rectangle)
-Sprite(text)
+Sprite(text, (500,200))
 App().run()
