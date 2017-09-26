@@ -28,6 +28,7 @@ Sprite(blueCircle, (100,100))
 Sprite(blackCircle, (220,100))
 Sprite(redCircle, (340,100))
 Sprite(yellowCircle, (161,150))
+Sprite(greenCircle, (161,150))
 
 
 
