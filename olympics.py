@@ -15,7 +15,7 @@ blueOutline = LineStyle(10,blue)
 greenOutline = LineStyle(10,green)
 redOutline = LineStyle(10,red)
 blackOutline = LineStyle(10,black)
-yellowOutline = LineStyle(10,yellow)#pixels,color
+yellowOutline = LineStyle(10,yellow)
 
 
 blueCircle = CircleAsset(50, blueOutline, white)
