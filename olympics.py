@@ -15,12 +15,15 @@ blackOutline = LineStyle(1,black) #pixels,color
 
 
 blueCircle = CircleAsset(50, blackOutline, blue)
-whiteCircle = CircleAsset(50, blackOutline, white)
+whiteCircle = CircleAsset(40, blackOutline, white)
 yellowCircle = CircleAsset(50, blackOutline, yellow)
 blackCircle = CircleAsset(50, blackOutline, black)
 GreenCircle = CircleAsset(50, blackOutline, green)
 RedCircle = CircleAsset(50, blackOutline, red)
 
 Sprite(blueCircle, (50,50))
+Sprite(whiteCircle, (50,50))
+Sprite(yellowCircle, (100,100))
+Sprite(whiteCircle, (100,100))
 
 App().run()
