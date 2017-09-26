@@ -24,7 +24,11 @@ blackCircle = CircleAsset(50, blackOutline, white)
 greenCircle = CircleAsset(50, greenOutline, white)
 redCircle = CircleAsset(50, redOutline, white)
 
-Sprite(blueCircle, (50,50))
-Sprite(yellowCircle, (100,100))
+Sprite(blueCircle, (100,100))
+Sprite(blackCircle, (220,100))
+Sprite(redCircle, (340,100))
+Sprite(yellowCircle, (161,150))
+
+
 
 App().run()
