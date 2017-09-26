@@ -10,8 +10,8 @@ yellow = Color(0xffff00,1)
 
 
 blueCircle = CircleAsset(50, blackOutline, blue)
-blueCircle = CircleAsset(50, blackOutline, blue)
-blueCircle = CircleAsset(50, blackOutline, blue)
-blueCircle = CircleAsset(50, blackOutline, blue)
-blueCircle = CircleAsset(50, blackOutline, blue)
+yellowCircle = CircleAsset(50, blackOutline, blue)
+blackCircle = CircleAsset(50, blackOutline, blue)
+GreenCircle = CircleAsset(50, blackOutline, blue)
+RedCircle = CircleAsset(50, blackOutline, blue)
 
