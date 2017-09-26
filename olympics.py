@@ -9,22 +9,22 @@ green = Color(0x00FF00,1)
 blue = Color(0x0000FF,1)
 black = Color(0x000000,1)
 yellow = Color(0xffff00,1)
-white = Color(0xffffff,1)
+white = Color(0xffffff,0)
 
-blueOutline = LineStyle(1,black)
-greenOutline = LineStyle(1,black)
-redOutline = LineStyle(1,black)
-blackOutline = LineStyle(1,black)
-yellowOutline = LineStyle(1,black)#pixels,color
+blueOutline = LineStyle(10,blue)
+greenOutline = LineStyle(10,green)
+redOutline = LineStyle(10,red)
+blackOutline = LineStyle(10,black)
+yellowOutline = LineStyle(10,yellow)#pixels,color
 
 
 blueCircle = CircleAsset(50, blueOutline, white)
 yellowCircle = CircleAsset(50, yellowOutline, white)
 blackCircle = CircleAsset(50, blackOutline, white)
-GreenCircle = CircleAsset(50, blackOutline, white)
-RedCircle = CircleAsset(50, blackOutline, white)
+greenCircle = CircleAsset(50, greenOutline, white)
+redCircle = CircleAsset(50, redOutline, white)
 
 Sprite(blueCircle, (50,50))
-=Sprite(yellowCircle, (100,100))
+Sprite(yellowCircle, (100,100))
 
 App().run()
